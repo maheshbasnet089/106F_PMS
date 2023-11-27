@@ -7,7 +7,7 @@
         <h2>{{ product.name }}</h2>
         <p>{{ product.description }}</p>
         <p>Material : {{ product.material }} </p>
-        <router-link :to="'/singleBlog/' + product.id" > See More </router-link>
+        <router-link :to="'/singleProduct/' + product.id" > See More </router-link>
     </div>
 </div>
 

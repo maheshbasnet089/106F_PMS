@@ -4,9 +4,10 @@
     </header>
 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Products</a>
-        <a href="#">Contact</a>
+        <router-link to="/">Home</router-link>
+       
+        <router-link to="/addProduct">Add Product</router-link>
+        
     </nav>
 </template>
 

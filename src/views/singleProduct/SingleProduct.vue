@@ -8,6 +8,7 @@
         <p>{{ product.description }}</p>
         <p>Material : {{ product.material }} </p>
         <button @click="deleteProduct">Delete me</button>
+        <button @click="$router.push('/editProduct/' + product.id)">Edit me</button>
       
     </div>
 </div>
